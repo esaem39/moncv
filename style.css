@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'open_sanssemibold_italic';
+    src: url('opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.eot');
+    src: url('opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.woff2') format('woff2'),
+         url('opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.woff') format('woff'),
+         url('opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'),
+         url('opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.svg#open_sanssemibold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	width:80%;
+	margin:auto; 
+	border:1px solid black;
+	text-align:justify;
+	font-size: 1.1em;
+}
+img{
+	border-radius:40px;
+}
+
+.container{
+	display:flex;
+	background:#fff;
+	
+}
+.side{
+	width:350px;
+	margin-right:100px;
+	/*font-family: 'Dancing Script', cursive;*/
+    font-family: 'Shadows Into Light', cursive;
+	text-align:center;
+	background:#ffcc11;
+	
+}
+.side h1{
+	background-color:#a1a1a1;
+}
+.header{
+	margin-bottom: 100px;
+	text-align:center;
+}
+.steps{
+	/*margin-left:150px;*/
+	font-family: 'Simonetta',cursive;
+	text-align:left;
+}
+	
+h1{
+	font-size:1.3em;
+	text-transform: uppercase;
+	
+}
+.nom{
+	color:#ffde7d;
+	
+}
+.souligne{
+	text-decoration:underline;
+	text-decoration-color:#ffcc99;
+}
+.date1{
+	font-weight:bold;
+	padding:5px;
+	color: black;
+}
+ .item{
+ 	width: 700px;
+	display:inline-flex;
+	text-align: justify;
+	color:black;
+}
+li {
+	color:#ffde7d;
+}
+ul li {
+		
+	list-style-type: circle;
+	
+}
+@media screen and (max-width: 1024px)
+{
+	body{
+		width:auto;
+		overflow-x:hidden;
+	}
+	.container{
+		flex-direction:column;
+	}
+	.side{
+		width:100%;
+	}
+	.steps {
+		width: 100%;
+		margin: auto;
+	}
+	.item{
+		width:100%;
+		margin:auto;
+		
+		
+	}
+		
+		
+	
+	
+}
