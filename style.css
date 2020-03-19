@@ -1,61 +1,64 @@
-@font-face {
-    font-family: 'open_sanssemibold_italic';
-    src: url('opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.eot');
-    src: url('opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.woff2') format('woff2'),
-         url('opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.woff') format('woff'),
-         url('opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'),
-         url('opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.svg#open_sanssemibold_italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
 body {
-	width:80%;
-	margin:auto; 
-	border:1px solid black;
-	text-align:justify;
-	font-size: 1.1em;
+	width: 80%;
+	margin: auto; 
+	border: 1px solid black;
+	text-align: justify;
+	font-family: 'Simonetta',cursive;
 }
-img{
-	border-radius:40px;
+hr {
+	color: #f5dd42;
+	max-width: 600px;
+}
+img {
+	border-radius: 50px;
+	width:100px;
+	height: auto;
 }
 
-.container{
-	display:flex;
-	background:#fff;
+.container {
+	display: flex;
+	background: #fff;
 	
 }
-.side{
-	width:350px;
-	margin-right:100px;
-	/*font-family: 'Dancing Script', cursive;*/
-    font-family: 'Shadows Into Light', cursive;
-	text-align:center;
-	background:#ffcc11;
+.side {
+	width: 350px;
+	margin-right: 100px;
+	text-align: center;
+	background: #ffcc11;
 	
 }
-.side h1{
-	background-color:#a1a1a1;
+.side i {
+	border: 1px solid black;
+	padding: 5px;
+	border-radius: 50px;
 }
-.header{
+aside h2 {
+	background: #a1a1a1;
+	padding: 5px;
+	text-transform: uppercase;
+}
+
+.article-header {
 	margin-bottom: 100px;
-	text-align:center;
+	text-align: center;
 }
-.steps{
-	/*margin-left:150px;*/
-	font-family: 'Simonetta',cursive;
+.article-header h1 {
+	text-transform: uppercase;
+	font-size: 2em;
+	margin:0;
+}
+.steps {
+
 	text-align:left;
 }
-	
-h1{
-	font-size:1.3em;
+h2 {
 	text-transform: uppercase;
-	
-}
+	font-size: 1.5em;
+}	
+
 .nom{
 	color:#ffde7d;
-	
+	margin:0;
 }
 .souligne{
 	text-decoration:underline;
@@ -67,20 +70,33 @@ h1{
 	color: black;
 }
  .item{
- 	width: 700px;
+ 	width:70%;
 	display:inline-flex;
 	text-align: justify;
 	color:black;
 }
+
+ul {
+	list-style-type: circle;
+}
 li {
 	color:#ffde7d;
 }
-ul li {
-		
-	list-style-type: circle;
+li p {
 	
 }
-@media screen and (max-width: 1024px)
+
+ul li {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+	list-style-type: circle;	
+}
+.recommandation {
+	    margin-left: 4em;
+}
+
+@media screen and (max-width: 600px)
 {
 	body{
 		width:auto;
@@ -89,21 +105,17 @@ ul li {
 	.container{
 		flex-direction:column;
 	}
-	.side{
+
+	.side {
 		width:100%;
+		order: 3;
 	}
-	.steps {
+
+	.section {
 		width: 100%;
 		margin: auto;
+			
 	}
-	.item{
-		width:100%;
-		margin:auto;
-		
-		
-	}
-		
-		
 	
 	
 }
