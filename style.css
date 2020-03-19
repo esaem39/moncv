@@ -88,9 +88,12 @@ li p {
 
 ul li {
 	display: flex;
-    justify-content: space-around;
-    align-items: center;
-	list-style-type: circle;	
+    	justify-content: space-around;
+    	align-items: center;	
+}
+ul li::before{
+	content:"o";
+	font-size:0.9em;
 }
 .recommandation {
 	    margin-left: 4em;
