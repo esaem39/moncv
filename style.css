@@ -30,7 +30,7 @@ img {
 .side i {
 	border: 1px solid black;
 	padding: 5px;
-	border-radius: 50px;
+	border-radius: 50% 50% 50% 50%;
 }
 aside h2 {
 	background: #a1a1a1;
