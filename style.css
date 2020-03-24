@@ -10,7 +10,7 @@ hr {
 	max-width: 600px;
 }
 img {
-	border-radius: 50px;
+	border-radius: 50% 50% 50% 50%;
 	width:100px;
 	height: auto;
 }
