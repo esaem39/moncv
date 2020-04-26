@@ -20,29 +20,29 @@ img {
 	background: #fff;
 	
 }
-.side {
+.sidebar {
 	width: 350px;
 	margin-right: 100px;
 	text-align: center;
 	background: #ffcc11;
 	
 }
-.side i {
+.sidebar i {
 	border: 1px solid black;
 	padding: 5px;
 	border-radius: 50% 50% 50% 50%;
 }
-aside h2 {
+.sidebar h2 {
 	background: #a1a1a1;
 	padding: 5px;
 	text-transform: uppercase;
 }
 
-.article-header {
+.section-header {
 	margin-bottom: 100px;
 	text-align: center;
 }
-.article-header h1 {
+.section-header h1 {
 	text-transform: uppercase;
 	font-size: 2em;
 	margin:0;
@@ -110,22 +110,25 @@ ul li::before{
 	}
 	.container{
 		flex-direction:column;
+		padding: 0 5px;
 	}
 
-	.side {
-		width:100%;
-		order: 3;
+	.sidebar {
+		width:100%;	
+		order: 2;
+	}
+	aside h2 {
+	margin: 0;
+	font-size: 1.1em;
+	}
+	.steps header {
+		width: 100%;
+		margin: auto;
+		margin-bottom: 80px;
 	}
 	ul li::before{
 		content:" ";	
 	
 }
-
-	.section {
-		width: 100%;
-		margin: auto;
-			
-	}
-	
-	
+		
 }
