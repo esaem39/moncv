@@ -39,7 +39,9 @@ img {
 	padding: 5px;
 	text-transform: uppercase;
 }
-
+.apropos {
+	text-align: center;
+}
 .section-header {
 	margin-bottom: 100px;
 	text-align: center;
