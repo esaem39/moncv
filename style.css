@@ -14,9 +14,9 @@ img {
 	width:100px;
 	height: auto;
 }
-.gras {
+/*.gras {
 	font-weight : bold;
-}
+}*/
 .container {
 	display: flex;
 	background: #fff;
