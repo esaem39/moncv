@@ -14,9 +14,7 @@ img {
 	width:100px;
 	height: auto;
 }
-/*.gras {
-	font-weight : bold;
-}*/
+
 .container {
 	display: flex;
 	background: #fff;
@@ -24,7 +22,7 @@ img {
 }
 .sidebar {
 	width: 350px;
-	margin-right: 90px;
+	margin-right: 100px;
 	text-align: center;
 	background: #ffcc11;
 	
@@ -39,10 +37,7 @@ img {
 	padding: 5px;
 	text-transform: uppercase;
 }
-/*.apropos {
-	text-align: center;
-	
-} */
+
 .section-header {
 	margin-bottom: 100px;
 	text-align: center;
@@ -137,3 +132,5 @@ ul li::before{
 }
 		
 }
+© 2021 GitHub, Inc.
+Terms
