@@ -43,7 +43,7 @@ img {
 }
 
 .section-header {
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 	text-align: center;
 }
 .section-header h1 {
@@ -60,6 +60,11 @@ h2 {
 	font-size: 1.5em;
 }	
 
+p{
+    line-height: 20px;
+    margin: 5px;
+}
+
 .nom{
 	color:#ffde7d;
 	margin:0;
@@ -70,14 +75,17 @@ h2 {
 }
 .date1{
 	font-weight:bold;
-	padding:5px;
+	padding: 2px;
 	color: black;
+   
 }
  .item{
  	width:70%;
-	display:inline-flex;
+	/*display:inline-flex;*/
 	text-align: justify;
 	color:black;
+    
+    
 }
 
 ul {
@@ -88,8 +96,9 @@ li {
 }
 ul li {
 	display: flex;
-    	justify-content: space-around;
-    	align-items: center;	
+    	justify-content: space-evenly;
+    	align-items: center;
+        	
 }
 ul li::before{
 	content:"o";
@@ -136,5 +145,4 @@ ul li::before{
 }
 		
 }
-© 2021 GitHub, Inc.
-Terms
+
