@@ -29,26 +29,26 @@ img {
 	
 }
 .sidebar p {
-	line-height: 18px;
+	line-height: 10px;
 }
 .sidebar i {
 	border: 1px solid black;
-	padding: 5px;
+	padding: 3px;
 	border-radius: 50% 50% 50% 50%;
 }
 .sidebar h2 {
 	background: #a1a1a1;
-	padding: 5px;
+	padding: 3px;
 	text-transform: uppercase;
 }
 
 .section-header {
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 	text-align: center;
 }
 .section-header h1 {
 	text-transform: uppercase;
-	font-size: 1.8em;
+	font-size: 1.5em;
 	margin:0;
 }
 .steps {
@@ -57,12 +57,12 @@ img {
 }
 h2 {
 	text-transform: uppercase;
-	font-size: 1.4em;
+	font-size: 1.2em;
 }	
 
 p{
-    line-height: 18px;
-    margin: 5px;
+    line-height: 10px;
+    margin: 3px;
 }
 
 .nom{
